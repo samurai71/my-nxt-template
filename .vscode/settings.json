@@ -2,5 +2,6 @@
     "cSpell.words": [
         "neurolint",
         "vaul"
-    ]
+    ],
+    "typescript.tsdk": "node_modules\\typescript\\lib"
 }
