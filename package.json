@@ -10,6 +10,8 @@
     "lint:fix": "eslint --fix",
     "format": "prettier --write .",
     "prettier": "prettier --check .",
+    "commitlint": "commitlint --from=HEAD~1",
+    "commit": "pnpm exec git-cz",
     "prepare": "husky"
   },
   "dependencies": {
@@ -18,6 +20,8 @@
     "react-dom": "19.2.3"
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.2.0",
+    "@commitlint/config-conventional": "^20.2.0",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^25.0.3",
     "@types/react": "^19.2.7",
@@ -40,5 +44,10 @@
     "**/*.{css,md,json}": [
       "prettier --write"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
