@@ -12,6 +12,7 @@
     "prettier": "prettier --check .",
     "commitlint": "commitlint --from=HEAD~1",
     "commit": "pnpm exec git-cz",
+    "release": "semantic-release",
     "prepare": "husky"
   },
   "dependencies": {
@@ -22,6 +23,11 @@
   "devDependencies": {
     "@commitlint/cli": "^20.2.0",
     "@commitlint/config-conventional": "^20.2.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.2",
+    "@semantic-release/release-notes-generator": "^14.1.0",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^25.0.3",
     "@types/react": "^19.2.7",
@@ -33,6 +39,7 @@
     "lint-staged": "^16.2.7",
     "prettier": "^3.7.4",
     "prettier-plugin-tailwindcss": "^0.7.2",
+    "semantic-release": "^25.0.2",
     "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3"
   },
