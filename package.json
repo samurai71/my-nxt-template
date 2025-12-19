@@ -9,6 +9,7 @@
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "format": "prettier --write .",
+    "prettier": "prettier --check .",
     "prepare": "husky"
   },
   "dependencies": {
