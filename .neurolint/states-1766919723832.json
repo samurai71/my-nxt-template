@@ -1,0 +1,82 @@
+{
+  "timestamp": "2025-12-28T11:02:03.832Z",
+  "file": "C:\\Users\\Mark Landeryou\\dev-projects\\personal\\my-nxt-template\\src\\app\\layout.tsx",
+  "layers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "appliedFixes": [
+    {
+      "rule": "Layer 1 (config)",
+      "description": "config layer transformation",
+      "location": {
+        "line": 1,
+        "column": 1
+      },
+      "layer": 1,
+      "changes": 0,
+      "warnings": [
+        "Single-file mode: Configuration suggestions only, no files modified"
+      ],
+      "suggestions": []
+    },
+    {
+      "rule": "Layer 3 (components)",
+      "description": "components layer transformation",
+      "location": {
+        "line": 1,
+        "column": 1
+      },
+      "layer": 3,
+      "changes": 0,
+      "warnings": [],
+      "suggestions": []
+    },
+    {
+      "rule": "Layer 4 (hydration)",
+      "description": "hydration layer transformation",
+      "location": {
+        "line": 1,
+        "column": 1
+      },
+      "layer": 4,
+      "changes": 0,
+      "warnings": [],
+      "suggestions": []
+    },
+    {
+      "rule": "Layer 5 (nextjs)",
+      "description": "nextjs layer transformation",
+      "location": {
+        "line": 1,
+        "column": 1
+      },
+      "layer": 5,
+      "changes": 1,
+      "warnings": [],
+      "suggestions": []
+    },
+    {
+      "rule": "Layer 7 (adaptive)",
+      "description": "adaptive layer transformation",
+      "location": {
+        "line": 1,
+        "column": 1
+      },
+      "layer": 7,
+      "changes": 0,
+      "warnings": [],
+      "suggestions": []
+    }
+  ],
+  "executionTime": 222.84840000000008,
+  "backupPath": "centralized",
+  "engine": "shared-core",
+  "fallbackError": null,
+  "analysisIssues": 0
+}

@@ -1,0 +1,53 @@
+{
+  "timestamp": 1766919723880,
+  "file": "C:\\Users\\Mark Landeryou\\dev-projects\\personal\\my-nxt-template\\src\\app\\page.tsx",
+  "layers": [
+    {
+      "id": 1,
+      "name": "Configuration",
+      "success": true,
+      "changes": 0,
+      "warnings": [
+        "Single-file mode: Configuration suggestions only, no files modified"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Component Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "name": "Hydration Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "name": "Next.js Fixes",
+      "success": true,
+      "changes": 1,
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "name": "Adaptive Pattern Learning",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    }
+  ],
+  "backups": [
+    ".neurolint-backups\\src\\app\\page.tsx.1766919723881.24d1a885",
+    ".neurolint-backups\\src\\app\\page.tsx.1766919723894.24d1a885",
+    ".neurolint-backups\\src\\app\\page.tsx.1766919723920.24d1a885",
+    ".neurolint-backups\\src\\app\\page.tsx.1766919723938.24d1a885",
+    ".neurolint-backups\\src\\app\\page.tsx.1766919724002.24d1a885",
+    ".neurolint-backups\\src\\app\\page.tsx.1766919724042.b7deb7e3",
+    ".neurolint-backups\\src\\app\\page.tsx.1766919724055.b7deb7e3"
+  ],
+  "executionTime": 195.6008999999999
+}

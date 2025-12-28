@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "lint:analyze": "neurolint analyze ./src --verbose",
+    "lint:fix": "neurolint fix ./src --all-layers --dry-run",
+    "lint:apply": "neurolint fix ./src --all-layers"
   },
   "dependencies": {
     "next": "16.1.1",
@@ -14,6 +17,7 @@
     "react-dom": "19.2.3"
   },
   "devDependencies": {
+    "@neurolint/cli": "^1.5.4",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^25.0.3",
     "@types/react": "^19.2.7",
