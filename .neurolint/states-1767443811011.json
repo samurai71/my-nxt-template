@@ -1,0 +1,61 @@
+{
+  "timestamp": 1767443811011,
+  "file": "C:\\Users\\Mark Landeryou\\dev-projects\\personal\\my-nxt-template\\src\\components\\ui\\switch.tsx",
+  "layers": [
+    {
+      "id": 1,
+      "name": "Configuration",
+      "success": true,
+      "changes": 0,
+      "warnings": [
+        "Single-file mode: Configuration suggestions only, no files modified"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Component Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "name": "Hydration Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "name": "Next.js Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "name": "Adaptive Pattern Learning",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "name": "Security Forensics",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    }
+  ],
+  "backups": [
+    ".neurolint-backups\\src\\components\\ui\\switch.tsx.1767443811014.881e0aad",
+    ".neurolint-backups\\src\\components\\ui\\switch.tsx.1767443811019.881e0aad",
+    ".neurolint-backups\\src\\components\\ui\\switch.tsx.1767443811031.881e0aad",
+    ".neurolint-backups\\src\\components\\ui\\switch.tsx.1767443811054.881e0aad",
+    ".neurolint-backups\\src\\components\\ui\\switch.tsx.1767443811174.881e0aad",
+    ".neurolint-backups\\src\\components\\ui\\switch.tsx.1767443811302.881e0aad",
+    ".neurolint-backups\\src\\components\\ui\\switch.tsx.1767443811319.881e0aad",
+    ".neurolint-backups\\src\\components\\ui\\switch.tsx.1767443811444.881e0aad"
+  ],
+  "executionTime": 462.29949999999735
+}

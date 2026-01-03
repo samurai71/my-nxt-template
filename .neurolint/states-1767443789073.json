@@ -1,0 +1,95 @@
+{
+  "timestamp": "2026-01-03T12:36:29.074Z",
+  "file": "C:\\Users\\Mark Landeryou\\dev-projects\\personal\\my-nxt-template\\src\\lib\\utils.ts",
+  "layers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "appliedFixes": [
+    {
+      "rule": "Layer 1 (config)",
+      "description": "config layer transformation",
+      "location": {
+        "line": 1,
+        "column": 1
+      },
+      "layer": 1,
+      "changes": 0,
+      "warnings": [
+        "Single-file mode: Configuration suggestions only, no files modified"
+      ],
+      "suggestions": []
+    },
+    {
+      "rule": "Layer 3 (components)",
+      "description": "components layer transformation",
+      "location": {
+        "line": 1,
+        "column": 1
+      },
+      "layer": 3,
+      "changes": 0,
+      "warnings": [],
+      "suggestions": []
+    },
+    {
+      "rule": "Layer 4 (hydration)",
+      "description": "hydration layer transformation",
+      "location": {
+        "line": 1,
+        "column": 1
+      },
+      "layer": 4,
+      "changes": 0,
+      "warnings": [],
+      "suggestions": []
+    },
+    {
+      "rule": "Layer 5 (nextjs)",
+      "description": "nextjs layer transformation",
+      "location": {
+        "line": 1,
+        "column": 1
+      },
+      "layer": 5,
+      "changes": 0,
+      "warnings": [],
+      "suggestions": []
+    },
+    {
+      "rule": "Layer 7 (adaptive)",
+      "description": "adaptive layer transformation",
+      "location": {
+        "line": 1,
+        "column": 1
+      },
+      "layer": 7,
+      "changes": 0,
+      "warnings": [],
+      "suggestions": []
+    },
+    {
+      "rule": "Layer 8 (security-forensics)",
+      "description": "security-forensics layer transformation",
+      "location": {
+        "line": 1,
+        "column": 1
+      },
+      "layer": 8,
+      "changes": 0,
+      "warnings": [],
+      "suggestions": []
+    }
+  ],
+  "executionTime": 1118.3533999999997,
+  "backupPath": "centralized",
+  "engine": "shared-core",
+  "fallbackError": null,
+  "analysisIssues": 0
+}

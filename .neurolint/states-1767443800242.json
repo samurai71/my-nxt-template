@@ -1,0 +1,61 @@
+{
+  "timestamp": 1767443800242,
+  "file": "C:\\Users\\Mark Landeryou\\dev-projects\\personal\\my-nxt-template\\src\\components\\ui\\form.tsx",
+  "layers": [
+    {
+      "id": 1,
+      "name": "Configuration",
+      "success": true,
+      "changes": 0,
+      "warnings": [
+        "Single-file mode: Configuration suggestions only, no files modified"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Component Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "name": "Hydration Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "name": "Next.js Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "name": "Adaptive Pattern Learning",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "name": "Security Forensics",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    }
+  ],
+  "backups": [
+    ".neurolint-backups\\src\\components\\ui\\form.tsx.1767443800246.e64386b8",
+    ".neurolint-backups\\src\\components\\ui\\form.tsx.1767443800259.e64386b8",
+    ".neurolint-backups\\src\\components\\ui\\form.tsx.1767443800376.e64386b8",
+    ".neurolint-backups\\src\\components\\ui\\form.tsx.1767443800467.e64386b8",
+    ".neurolint-backups\\src\\components\\ui\\form.tsx.1767443800586.e64386b8",
+    ".neurolint-backups\\src\\components\\ui\\form.tsx.1767443800666.e64386b8",
+    ".neurolint-backups\\src\\components\\ui\\form.tsx.1767443800676.e64386b8",
+    ".neurolint-backups\\src\\components\\ui\\form.tsx.1767443800890.e64386b8"
+  ],
+  "executionTime": 676.6463000000003
+}

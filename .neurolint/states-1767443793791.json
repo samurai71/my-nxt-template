@@ -1,0 +1,61 @@
+{
+  "timestamp": 1767443793791,
+  "file": "C:\\Users\\Mark Landeryou\\dev-projects\\personal\\my-nxt-template\\src\\components\\ui\\carousel.tsx",
+  "layers": [
+    {
+      "id": 1,
+      "name": "Configuration",
+      "success": true,
+      "changes": 0,
+      "warnings": [
+        "Single-file mode: Configuration suggestions only, no files modified"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Component Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "name": "Hydration Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "name": "Next.js Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "name": "Adaptive Pattern Learning",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "name": "Security Forensics",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    }
+  ],
+  "backups": [
+    ".neurolint-backups\\src\\components\\ui\\carousel.tsx.1767443793806.61511ca1",
+    ".neurolint-backups\\src\\components\\ui\\carousel.tsx.1767443793843.61511ca1",
+    ".neurolint-backups\\src\\components\\ui\\carousel.tsx.1767443793979.61511ca1",
+    ".neurolint-backups\\src\\components\\ui\\carousel.tsx.1767443794019.61511ca1",
+    ".neurolint-backups\\src\\components\\ui\\carousel.tsx.1767443794050.61511ca1",
+    ".neurolint-backups\\src\\components\\ui\\carousel.tsx.1767443794118.61511ca1",
+    ".neurolint-backups\\src\\components\\ui\\carousel.tsx.1767443794180.61511ca1",
+    ".neurolint-backups\\src\\components\\ui\\carousel.tsx.1767443794276.61511ca1"
+  ],
+  "executionTime": 509.4835000000003
+}

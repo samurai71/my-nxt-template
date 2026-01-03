@@ -1,0 +1,61 @@
+{
+  "timestamp": 1767443806047,
+  "file": "C:\\Users\\Mark Landeryou\\dev-projects\\personal\\my-nxt-template\\src\\components\\ui\\scroll-area.tsx",
+  "layers": [
+    {
+      "id": 1,
+      "name": "Configuration",
+      "success": true,
+      "changes": 0,
+      "warnings": [
+        "Single-file mode: Configuration suggestions only, no files modified"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Component Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "name": "Hydration Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "name": "Next.js Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "name": "Adaptive Pattern Learning",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "name": "Security Forensics",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    }
+  ],
+  "backups": [
+    ".neurolint-backups\\src\\components\\ui\\scroll-area.tsx.1767443806047.bcfa838c",
+    ".neurolint-backups\\src\\components\\ui\\scroll-area.tsx.1767443806051.bcfa838c",
+    ".neurolint-backups\\src\\components\\ui\\scroll-area.tsx.1767443806063.bcfa838c",
+    ".neurolint-backups\\src\\components\\ui\\scroll-area.tsx.1767443806072.bcfa838c",
+    ".neurolint-backups\\src\\components\\ui\\scroll-area.tsx.1767443806146.bcfa838c",
+    ".neurolint-backups\\src\\components\\ui\\scroll-area.tsx.1767443806224.bcfa838c",
+    ".neurolint-backups\\src\\components\\ui\\scroll-area.tsx.1767443806255.bcfa838c",
+    ".neurolint-backups\\src\\components\\ui\\scroll-area.tsx.1767443806419.bcfa838c"
+  ],
+  "executionTime": 406.4894999999997
+}

@@ -1,0 +1,61 @@
+{
+  "timestamp": 1767443789955,
+  "file": "C:\\Users\\Mark Landeryou\\dev-projects\\personal\\my-nxt-template\\src\\components\\ui\\badge.tsx",
+  "layers": [
+    {
+      "id": 1,
+      "name": "Configuration",
+      "success": true,
+      "changes": 0,
+      "warnings": [
+        "Single-file mode: Configuration suggestions only, no files modified"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Component Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "name": "Hydration Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "name": "Next.js Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "name": "Adaptive Pattern Learning",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "name": "Security Forensics",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    }
+  ],
+  "backups": [
+    ".neurolint-backups\\src\\components\\ui\\badge.tsx.1767443789963.beee1c58",
+    ".neurolint-backups\\src\\components\\ui\\badge.tsx.1767443790246.beee1c58",
+    ".neurolint-backups\\src\\components\\ui\\badge.tsx.1767443790689.beee1c58",
+    ".neurolint-backups\\src\\components\\ui\\badge.tsx.1767443790750.beee1c58",
+    ".neurolint-backups\\src\\components\\ui\\badge.tsx.1767443790901.beee1c58",
+    ".neurolint-backups\\src\\components\\ui\\badge.tsx.1767443790956.beee1c58",
+    ".neurolint-backups\\src\\components\\ui\\badge.tsx.1767443790971.beee1c58",
+    ".neurolint-backups\\src\\components\\ui\\badge.tsx.1767443791016.beee1c58"
+  ],
+  "executionTime": 1069.0623999999998
+}

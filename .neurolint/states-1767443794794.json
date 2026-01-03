@@ -1,0 +1,61 @@
+{
+  "timestamp": 1767443794794,
+  "file": "C:\\Users\\Mark Landeryou\\dev-projects\\personal\\my-nxt-template\\src\\components\\ui\\checkbox.tsx",
+  "layers": [
+    {
+      "id": 1,
+      "name": "Configuration",
+      "success": true,
+      "changes": 0,
+      "warnings": [
+        "Single-file mode: Configuration suggestions only, no files modified"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Component Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "name": "Hydration Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "name": "Next.js Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "name": "Adaptive Pattern Learning",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "name": "Security Forensics",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    }
+  ],
+  "backups": [
+    ".neurolint-backups\\src\\components\\ui\\checkbox.tsx.1767443794802.d31f2bfd",
+    ".neurolint-backups\\src\\components\\ui\\checkbox.tsx.1767443794826.d31f2bfd",
+    ".neurolint-backups\\src\\components\\ui\\checkbox.tsx.1767443794849.d31f2bfd",
+    ".neurolint-backups\\src\\components\\ui\\checkbox.tsx.1767443794870.d31f2bfd",
+    ".neurolint-backups\\src\\components\\ui\\checkbox.tsx.1767443795219.d31f2bfd",
+    ".neurolint-backups\\src\\components\\ui\\checkbox.tsx.1767443795494.d31f2bfd",
+    ".neurolint-backups\\src\\components\\ui\\checkbox.tsx.1767443795510.d31f2bfd",
+    ".neurolint-backups\\src\\components\\ui\\checkbox.tsx.1767443795901.d31f2bfd"
+  ],
+  "executionTime": 1261.5676999999996
+}
