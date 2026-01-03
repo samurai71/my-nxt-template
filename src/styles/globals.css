@@ -122,4 +122,13 @@
   body {
     @apply bg-background text-foreground;
   }
+  h2 {
+    @apply py-2 font-serif text-2xl font-bold;
+  }
+  h3 {
+    @apply py-2 font-serif text-xl font-semibold;
+  }
+  p {
+    @apply py-2 text-base leading-7;
+  }
 }

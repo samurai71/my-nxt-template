@@ -9,14 +9,11 @@
     "source.fixAll": "explicit"
   },
 
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 500,
-
   "prettier.requireConfig": true,
 
   "tailwindCSS.experimental.classRegex": [
     ["className\\s*=\\s*\"([^\"]*)\"", "([^\"\\s]+)"],
     ["className\\s*=\\s*\\{`([^`]*)`\\}", "([^`\\s]+)"]
   ],
-  "cSpell.words": ["logomark", "neurolint", "trivago", "vaul"]
+  "cSpell.words": ["logomark", "neurolint", "oklch", "trivago", "vaul"]
 }
