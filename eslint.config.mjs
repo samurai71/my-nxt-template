@@ -1,7 +1,7 @@
-import js from "@eslint/js";
-import next from "eslint-config-next";
-import importPlugin from "eslint-plugin-import";
-import prettier from "eslint-config-prettier";
+import js from "@eslint/js"
+import next from "eslint-config-next"
+import prettier from "eslint-config-prettier"
+import importPlugin from "eslint-plugin-import"
 
 export default [
   {
@@ -76,4 +76,4 @@ export default [
 
   // ---- DISABLE RULES THAT CONFLICT WITH PRETTIER ----
   prettier,
-];
+]
