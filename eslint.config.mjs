@@ -1,18 +1,79 @@
-import { defineConfig, globalIgnores } from "eslint/config";
-import nextVitals from "eslint-config-next/core-web-vitals";
-import nextTs from "eslint-config-next/typescript";
+import js from "@eslint/js"
+import next from "eslint-config-next"
+import prettier from "eslint-config-prettier"
+import importPlugin from "eslint-plugin-import"
 
-const eslintConfig = defineConfig([
-  ...nextVitals,
-  ...nextTs,
-  // Override default ignores of eslint-config-next.
-  globalIgnores([
-    // Default ignores of eslint-config-next:
-    ".next/**",
-    "out/**",
-    "build/**",
-    "next-env.d.ts",
-  ]),
-]);
+export default [
+  {
+    ignores: ["node_modules", ".next", "out", "dist", "coverage"],
+  },
 
-export default eslintConfig;
+  js.configs.recommended,
+
+  {
+    files: ["**/*.{js,jsx,ts,tsx}"],
+    plugins: {
+      import: importPlugin,
+    },
+    languageOptions: {
+      parserOptions: {
+        ecmaVersion: "latest",
+        sourceType: "module",
+      },
+    },
+    rules: {
+      // ---- PRETTIER ALIGNMENT ----
+      semi: "off",
+
+      // ---- IMPORT ORDER (MATCHES PRETTIER) ----
+      "import/order": [
+        "error",
+        {
+          groups: [
+            "builtin",
+            "external",
+            "internal",
+            ["parent", "sibling", "index"],
+            "object",
+            "type",
+          ],
+          pathGroups: [
+            {
+              pattern: "react",
+              group: "external",
+              position: "before",
+            },
+            {
+              pattern: "next/**",
+              group: "external",
+              position: "after",
+            },
+            {
+              pattern: "@/**",
+              group: "internal",
+            },
+          ],
+          pathGroupsExcludedImportTypes: ["react"],
+          "newlines-between": "always",
+          alphabetize: {
+            order: "asc",
+            caseInsensitive: true,
+          },
+        },
+      ],
+
+      // ---- QUALITY ----
+      "import/newline-after-import": "error",
+      "import/no-duplicates": "error",
+    },
+  },
+
+  // ---- NEXT.JS RULES ----
+  {
+    ...next,
+    files: ["**/*.{js,jsx,ts,tsx}"],
+  },
+
+  // ---- DISABLE RULES THAT CONFLICT WITH PRETTIER ----
+  prettier,
+]

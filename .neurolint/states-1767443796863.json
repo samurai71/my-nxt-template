@@ -7,9 +7,7 @@
       "name": "Configuration",
       "success": true,
       "changes": 0,
-      "warnings": [
-        "Single-file mode: Configuration suggestions only, no files modified"
-      ]
+      "warnings": ["Single-file mode: Configuration suggestions only, no files modified"]
     },
     {
       "id": 3,
