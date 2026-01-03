@@ -1,6 +1,20 @@
 {
-    "cSpell.words": [
-        "logomark",
-        "neurolint"
-    ]
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+
+  "prettier.requireConfig": true,
+
+  "tailwindCSS.experimental.classRegex": [
+    ["className\\s*=\\s*\"([^\"]*)\"", "([^\"\\s]+)"],
+    ["className\\s*=\\s*\\{`([^`]*)`\\}", "([^`\\s]+)"]
+  ],
+  "cSpell.words": ["logomark", "neurolint", "trivago", "vaul"]
 }

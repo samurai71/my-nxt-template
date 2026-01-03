@@ -1,7 +1,9 @@
 "use client"
 
 import * as React from "react"
-import { Sun, Moon } from "lucide-react"
+
+import { Moon, Sun } from "lucide-react"
+
 import { Button } from "@/components/ui/button"
 
 type Theme = "light" | "dark"
@@ -20,9 +22,7 @@ export function ThemeToggle() {
       return
     }
 
-    const prefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    ).matches
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches
 
     setTheme(prefersDark ? "dark" : "light")
   }, [])
