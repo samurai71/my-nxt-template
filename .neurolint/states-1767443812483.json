@@ -1,0 +1,61 @@
+{
+  "timestamp": 1767443812483,
+  "file": "C:\\Users\\Mark Landeryou\\dev-projects\\personal\\my-nxt-template\\src\\components\\ui\\textarea.tsx",
+  "layers": [
+    {
+      "id": 1,
+      "name": "Configuration",
+      "success": true,
+      "changes": 0,
+      "warnings": [
+        "Single-file mode: Configuration suggestions only, no files modified"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Component Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "name": "Hydration Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "name": "Next.js Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "name": "Adaptive Pattern Learning",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "name": "Security Forensics",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    }
+  ],
+  "backups": [
+    ".neurolint-backups\\src\\components\\ui\\textarea.tsx.1767443812484.16e5d792",
+    ".neurolint-backups\\src\\components\\ui\\textarea.tsx.1767443812490.16e5d792",
+    ".neurolint-backups\\src\\components\\ui\\textarea.tsx.1767443812503.16e5d792",
+    ".neurolint-backups\\src\\components\\ui\\textarea.tsx.1767443812554.16e5d792",
+    ".neurolint-backups\\src\\components\\ui\\textarea.tsx.1767443812657.16e5d792",
+    ".neurolint-backups\\src\\components\\ui\\textarea.tsx.1767443812670.16e5d792",
+    ".neurolint-backups\\src\\components\\ui\\textarea.tsx.1767443812674.16e5d792",
+    ".neurolint-backups\\src\\components\\ui\\textarea.tsx.1767443812769.16e5d792"
+  ],
+  "executionTime": 306.66579999999885
+}

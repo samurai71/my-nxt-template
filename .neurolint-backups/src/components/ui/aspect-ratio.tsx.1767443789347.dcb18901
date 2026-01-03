@@ -1,0 +1,7 @@
+{
+  "originalPath": "src\\components\\ui\\aspect-ratio.tsx",
+  "timestamp": 1767443789347,
+  "hash": "dcb18901",
+  "operation": "layer-3",
+  "content": "\"use client\"\r\n\r\nimport * as AspectRatioPrimitive from \"@radix-ui/react-aspect-ratio\"\r\n\r\nfunction AspectRatio({\r\n  ...props\r\n}: React.ComponentProps<typeof AspectRatioPrimitive.Root>) {\r\n  return <AspectRatioPrimitive.Root data-slot=\"aspect-ratio\" {...props} />\r\n}\r\n\r\nexport { AspectRatio }\r\n"
+}

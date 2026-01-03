@@ -1,0 +1,61 @@
+{
+  "timestamp": 1767443792055,
+  "file": "C:\\Users\\Mark Landeryou\\dev-projects\\personal\\my-nxt-template\\src\\components\\ui\\button.tsx",
+  "layers": [
+    {
+      "id": 1,
+      "name": "Configuration",
+      "success": true,
+      "changes": 0,
+      "warnings": [
+        "Single-file mode: Configuration suggestions only, no files modified"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Component Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "name": "Hydration Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "name": "Next.js Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "name": "Adaptive Pattern Learning",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "name": "Security Forensics",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    }
+  ],
+  "backups": [
+    ".neurolint-backups\\src\\components\\ui\\button.tsx.1767443792065.75c44510",
+    ".neurolint-backups\\src\\components\\ui\\button.tsx.1767443792083.75c44510",
+    ".neurolint-backups\\src\\components\\ui\\button.tsx.1767443792115.75c44510",
+    ".neurolint-backups\\src\\components\\ui\\button.tsx.1767443792142.75c44510",
+    ".neurolint-backups\\src\\components\\ui\\button.tsx.1767443792188.75c44510",
+    ".neurolint-backups\\src\\components\\ui\\button.tsx.1767443792229.75c44510",
+    ".neurolint-backups\\src\\components\\ui\\button.tsx.1767443792233.75c44510",
+    ".neurolint-backups\\src\\components\\ui\\button.tsx.1767443792243.75c44510"
+  ],
+  "executionTime": 197.59799999999996
+}

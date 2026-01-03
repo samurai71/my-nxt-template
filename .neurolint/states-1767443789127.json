@@ -1,0 +1,61 @@
+{
+  "timestamp": 1767443789127,
+  "file": "C:\\Users\\Mark Landeryou\\dev-projects\\personal\\my-nxt-template\\src\\components\\ui\\aspect-ratio.tsx",
+  "layers": [
+    {
+      "id": 1,
+      "name": "Configuration",
+      "success": true,
+      "changes": 0,
+      "warnings": [
+        "Single-file mode: Configuration suggestions only, no files modified"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Component Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "name": "Hydration Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "name": "Next.js Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "name": "Adaptive Pattern Learning",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "name": "Security Forensics",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    }
+  ],
+  "backups": [
+    ".neurolint-backups\\src\\components\\ui\\aspect-ratio.tsx.1767443789128.dcb18901",
+    ".neurolint-backups\\src\\components\\ui\\aspect-ratio.tsx.1767443789161.dcb18901",
+    ".neurolint-backups\\src\\components\\ui\\aspect-ratio.tsx.1767443789347.dcb18901",
+    ".neurolint-backups\\src\\components\\ui\\aspect-ratio.tsx.1767443789383.dcb18901",
+    ".neurolint-backups\\src\\components\\ui\\aspect-ratio.tsx.1767443789394.dcb18901",
+    ".neurolint-backups\\src\\components\\ui\\aspect-ratio.tsx.1767443789470.dcb18901",
+    ".neurolint-backups\\src\\components\\ui\\aspect-ratio.tsx.1767443789475.dcb18901",
+    ".neurolint-backups\\src\\components\\ui\\aspect-ratio.tsx.1767443789522.dcb18901"
+  ],
+  "executionTime": 415.2229000000002
+}

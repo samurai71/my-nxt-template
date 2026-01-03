@@ -1,0 +1,61 @@
+{
+  "timestamp": 1767443803685,
+  "file": "C:\\Users\\Mark Landeryou\\dev-projects\\personal\\my-nxt-template\\src\\components\\ui\\navigation-menu.tsx",
+  "layers": [
+    {
+      "id": 1,
+      "name": "Configuration",
+      "success": true,
+      "changes": 0,
+      "warnings": [
+        "Single-file mode: Configuration suggestions only, no files modified"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Component Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 4,
+      "name": "Hydration Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 5,
+      "name": "Next.js Fixes",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "name": "Adaptive Pattern Learning",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    },
+    {
+      "id": 8,
+      "name": "Security Forensics",
+      "success": true,
+      "changes": 0,
+      "warnings": []
+    }
+  ],
+  "backups": [
+    ".neurolint-backups\\src\\components\\ui\\navigation-menu.tsx.1767443803686.74d588ba",
+    ".neurolint-backups\\src\\components\\ui\\navigation-menu.tsx.1767443803691.74d588ba",
+    ".neurolint-backups\\src\\components\\ui\\navigation-menu.tsx.1767443803705.74d588ba",
+    ".neurolint-backups\\src\\components\\ui\\navigation-menu.tsx.1767443803734.74d588ba",
+    ".neurolint-backups\\src\\components\\ui\\navigation-menu.tsx.1767443803784.74d588ba",
+    ".neurolint-backups\\src\\components\\ui\\navigation-menu.tsx.1767443803920.74d588ba",
+    ".neurolint-backups\\src\\components\\ui\\navigation-menu.tsx.1767443804108.74d588ba",
+    ".neurolint-backups\\src\\components\\ui\\navigation-menu.tsx.1767443804301.74d588ba"
+  ],
+  "executionTime": 637.9464000000007
+}

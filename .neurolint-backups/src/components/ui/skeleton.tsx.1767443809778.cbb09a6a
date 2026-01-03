@@ -1,0 +1,7 @@
+{
+  "originalPath": "src\\components\\ui\\skeleton.tsx",
+  "timestamp": 1767443809778,
+  "hash": "cbb09a6a",
+  "operation": "layer-2-patterns",
+  "content": "import { cn } from \"@/lib/utils\"\r\n\r\nfunction Skeleton({ className, ...props }: React.ComponentProps<\"div\">) {\r\n  return (\r\n    <div\r\n      data-slot=\"skeleton\"\r\n      className={cn(\"bg-accent animate-pulse rounded-md\", className)}\r\n      {...props}\r\n    />\r\n  )\r\n}\r\n\r\nexport { Skeleton }\r\n"
+}
