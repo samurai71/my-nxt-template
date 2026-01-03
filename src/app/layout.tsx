@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 
 import { Geist, Geist_Mono } from "next/font/google"
 
+import { Footer } from "@/components/footer"
 import { ThemeToggle } from "@/components/theme-toggle"
 
 import "@/styles/globals.css"
@@ -35,6 +36,7 @@ export default function RootLayout({
           <ThemeToggle />
         </header>
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   )
