@@ -34,9 +34,11 @@ export default function RootLayout({
         <ThemeScript />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <header className="flex items-center justify-end p-4 border-b">
-          <ThemeToggle />
-        </header>
+        <div className="sticky top-0 z-10 bg-white dark:bg-black">
+          <header className="flex items-center justify-end p-4 border-b">
+            <ThemeToggle />
+          </header>
+        </div>
         <main>{children}</main>
         <Footer />
       </body>
