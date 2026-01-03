@@ -3,19 +3,19 @@
 <h1 align="center">My Nxt Template</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/topsamurai71/my-nxt-template?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/samurai71/my-nxt-template?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/countsamurai71/my-nxt-template?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/samurai71/my-nxt-template?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-sizesamurai71/my-nxt-template?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/samurai71/my-nxt-template?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/licensesamurai71/my-nxt-template?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/licenses/amurai71/my-nxt-template?color=56BEB8">
 
-  <img alt="Github issues" src="https://img.shields.io/github/issuessamurai71/my-nxt-template?color=56BEB8" />
+  <img alt="Github issues" src="https://img.shields.io/github/issues/samurai71/my-nxt-template?color=56BEB8" />
 
-  <img alt="Github forks" src="https://img.shields.io/github/forkssamurai71/my-nxt-template?color=56BEB8" />
+  <img alt="Github forks" src="https://img.shields.io/github/forks/samurai71/my-nxt-template?color=56BEB8" />
 
-  <img alt="Github stars" src="https://img.shields.io/github/starssamurai71/my-nxt-template?color=56BEB8" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/samurai71/my-nxt-template?color=56BEB8" />
 </p>
 
 <!-- Status -->
@@ -85,7 +85,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.comsamurai71" target="_blank">Mark Landeryou</a>
+Made with :heart: by <a href="https://github.com/samurai71" target="_blank">Mark Landeryou</a>
 
 &#xa0;
 
