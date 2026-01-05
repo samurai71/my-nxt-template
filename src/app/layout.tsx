@@ -1,26 +1,24 @@
-import type { Metadata } from "next"
+import type { Metadata } from 'next'
+import { Geist, Geist_Mono } from 'next/font/google'
 
-import { Geist, Geist_Mono } from "next/font/google"
+import { Footer } from '@/components/footer'
+import { Header } from '@/components/header'
+import '@/styles/globals.css'
 
-import { Footer } from "@/components/footer"
-import { ThemeToggle } from "@/components/theme-toggle"
-
-import "@/styles/globals.css"
-
-import { ThemeScript } from "./theme-script"
+import { ThemeScript } from './theme-script'
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
 })
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
 })
 export const metadata: Metadata = {
   title: {
-    template: "%s | My Template",
-    default: "My Template", // a default is required when creating a template
+    template: '%s | My Template',
+    default: 'My Template', // a default is required when creating a template
   },
 }
 export default function RootLayout({
@@ -33,11 +31,11 @@ export default function RootLayout({
       <head>
         <ThemeScript />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         <div className="sticky top-0 z-10 bg-white dark:bg-black">
-          <header className="flex items-center justify-end p-4 border-b">
-            <ThemeToggle />
-          </header>
+          <Header />
         </div>
         <main>{children}</main>
         <Footer />
