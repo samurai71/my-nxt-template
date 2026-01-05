@@ -23,7 +23,7 @@ export function Header() {
   const pathname = usePathname() || '/'
 
   const linkClass = (path: string) =>
-    `uppercase ${pathname === path ? 'underline overline' : ''}`
+    `uppercase ${pathname === path ? 'underline overline' : 'font-italic'}`
   const mobileLinkClass = (path: string) =>
     `rounded-md px-3 py-2 ${pathname === path ? 'underline overline' : 'hover:bg-accent'}`
 
