@@ -31,13 +31,19 @@ export function Header() {
 
         <nav className="hidden items-center gap-2 md:flex">
           <Button variant="ghost" asChild>
-            <Link href="/">Home</Link>
+            <Link href="/" className="uppercase">
+              Home
+            </Link>
           </Button>
           <Button variant="ghost" asChild>
-            <Link href="/about">About</Link>
+            <Link href="/about" className="uppercase">
+              About
+            </Link>
           </Button>
           <Button variant="ghost" asChild>
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact" className="uppercase">
+              Contact
+            </Link>
           </Button>
         </nav>
 
