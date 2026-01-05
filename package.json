@@ -12,7 +12,8 @@
     "lint:analyze": "neurolint analyze ./src --verbose",
     "lint:fix": "neurolint fix ./src --all-layers --dry-run",
     "lint:apply": "neurolint fix ./src --all-layers",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
