@@ -1,79 +1,71 @@
-import js from "@eslint/js"
-import next from "eslint-config-next"
-import prettier from "eslint-config-prettier"
-import importPlugin from "eslint-plugin-import"
+import js from '@eslint/js'
+import nextPlugin from '@next/eslint-plugin-next'
+import typescriptEslint from '@typescript-eslint/eslint-plugin'
+import typescriptParser from '@typescript-eslint/parser'
+import reactPlugin from 'eslint-plugin-react'
+import reactHooksPlugin from 'eslint-plugin-react-hooks'
 
-export default [
-  {
-    ignores: ["node_modules", ".next", "out", "dist", "coverage"],
-  },
-
+const eslintConfig = [
   js.configs.recommended,
-
   {
-    files: ["**/*.{js,jsx,ts,tsx}"],
-    plugins: {
-      import: importPlugin,
-    },
+    files: ['**/*.{js,jsx,mjs,cjs,ts,tsx}'],
     languageOptions: {
+      parser: typescriptParser,
       parserOptions: {
-        ecmaVersion: "latest",
-        sourceType: "module",
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+      globals: {
+        React: 'readonly',
+        JSX: 'readonly',
       },
     },
+    plugins: {
+      '@typescript-eslint': typescriptEslint,
+      react: reactPlugin,
+      'react-hooks': reactHooksPlugin,
+      '@next/next': nextPlugin,
+    },
     rules: {
-      // ---- PRETTIER ALIGNMENT ----
-      semi: "off",
-
-      // ---- IMPORT ORDER (MATCHES PRETTIER) ----
-      "import/order": [
-        "error",
+      ...reactPlugin.configs.recommended.rules,
+      ...reactHooksPlugin.configs.recommended.rules,
+      ...nextPlugin.configs.recommended.rules,
+      ...nextPlugin.configs['core-web-vitals'].rules,
+      'react/react-in-jsx-scope': 'off',
+      'react/prop-types': 'off',
+      'prefer-const': 'error',
+      'no-unused-vars': 'off',
+      '@typescript-eslint/no-unused-vars': [
+        'warn',
         {
-          groups: [
-            "builtin",
-            "external",
-            "internal",
-            ["parent", "sibling", "index"],
-            "object",
-            "type",
-          ],
-          pathGroups: [
-            {
-              pattern: "react",
-              group: "external",
-              position: "before",
-            },
-            {
-              pattern: "next/**",
-              group: "external",
-              position: "after",
-            },
-            {
-              pattern: "@/**",
-              group: "internal",
-            },
-          ],
-          pathGroupsExcludedImportTypes: ["react"],
-          "newlines-between": "always",
-          alphabetize: {
-            order: "asc",
-            caseInsensitive: true,
-          },
+          argsIgnorePattern: '^_',
+          varsIgnorePattern: '^_',
+          caughtErrorsIgnorePattern: '^_',
         },
       ],
-
-      // ---- QUALITY ----
-      "import/newline-after-import": "error",
-      "import/no-duplicates": "error",
+      '@typescript-eslint/no-explicit-any': 'warn',
+      'no-console': ['warn', { allow: ['warn', 'error'] }],
+    },
+    settings: {
+      react: {
+        version: 'detect',
+      },
     },
   },
-
-  // ---- NEXT.JS RULES ----
   {
-    ...next,
-    files: ["**/*.{js,jsx,ts,tsx}"],
+    ignores: [
+      'node_modules/**',
+      '.next/**',
+      'out/**',
+      'dist/**',
+      'build/**',
+      '*.config.js',
+      '*.config.mjs',
+    ],
   },
-
-  // ---- DISABLE RULES THAT CONFLICT WITH PRETTIER ----
-  prettier,
 ]
+
+export default eslintConfig

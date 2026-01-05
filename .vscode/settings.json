@@ -33,5 +33,5 @@
   "eslint.run": "onType",
   "eslint.format.enable": false,
   "prettier.requireConfig": true,
-  "cSpell.words": ["logomark", "neurolint", "oklch", "trivago", "vaul"]
+  "cSpell.words": ["logomark", "neurolint", "nlint", "oklch", "trivago", "vaul"]
 }
