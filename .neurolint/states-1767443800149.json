@@ -12,7 +12,9 @@
       },
       "layer": 1,
       "changes": 0,
-      "warnings": ["Single-file mode: Configuration suggestions only, no files modified"],
+      "warnings": [
+        "Single-file mode: Configuration suggestions only, no files modified"
+      ],
       "suggestions": []
     },
     {
