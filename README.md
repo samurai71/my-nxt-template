@@ -42,19 +42,19 @@ A starter template for NEXTjs app with src directory, typescript, tailwind v4, e
 
 ## :sparkles: Features
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
+:heavy_check_mark: Nextjs\
+:heavy_check_mark:Typescript\
 :heavy_check_mark: Feature 3;
 
 ## :rocket: Technologies
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- [Nextjs](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
 ## :white_check_mark: Requirements
 
@@ -70,10 +70,10 @@ $ git clone https://github.com/samurai71/my-nxt-template
 $ cd my-nxt-template
 
 # Install dependencies
-$ yarn
+$ pnpm install
 
 # Run the project
-$ yarn start
+$ pnpm run dev
 
 # The server will initialize in the <http://localhost:3000>
 ```
