@@ -14,6 +14,14 @@ import {
 } from '@/components/ui/dialog'
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof CommandPrimitive>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function Command({
   className,
   ...props
@@ -30,6 +38,23 @@ function Command({
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof Dialog> & {
+ *   title?: string
+ *   description?: string
+ *   className?: string
+ *   showCloseButton?: boolean
+ * }} param0
+ * @param {*} [param0.title='Command Palette']
+ * @param {*} [param0.description='Search for a command to run...']
+ * @param {*} param0.children
+ * @param {*} param0.className
+ * @param {*} [param0.showCloseButton=true]
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function CommandDialog({
   title = 'Command Palette',
   description = 'Search for a command to run...',
@@ -61,6 +86,14 @@ function CommandDialog({
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof CommandPrimitive.Input>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function CommandInput({
   className,
   ...props
@@ -83,6 +116,14 @@ function CommandInput({
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof CommandPrimitive.List>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function CommandList({
   className,
   ...props
@@ -99,6 +140,13 @@ function CommandList({
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof CommandPrimitive.Empty>} param0
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function CommandEmpty({
   ...props
 }: React.ComponentProps<typeof CommandPrimitive.Empty>) {
@@ -111,6 +159,14 @@ function CommandEmpty({
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof CommandPrimitive.Group>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function CommandGroup({
   className,
   ...props
@@ -127,6 +183,14 @@ function CommandGroup({
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof CommandPrimitive.Separator>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function CommandSeparator({
   className,
   ...props
@@ -140,6 +204,14 @@ function CommandSeparator({
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof CommandPrimitive.Item>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function CommandItem({
   className,
   ...props
@@ -156,6 +228,14 @@ function CommandItem({
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'span'>} param0
+ * @param {React.ComponentProps<"span">} param0.className
+ * @param {React.ComponentProps<"span">} param0....props
+ * @returns {*}
+ */
 function CommandShortcut({
   className,
   ...props

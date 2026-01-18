@@ -1,8 +1,19 @@
 import type { Metadata } from 'next'
 
+/**
+ * Description placeholder
+ *
+ * @type {Metadata}
+ */
 export const metadata: Metadata = {
   title: 'About',
 }
+/**
+ * Description placeholder
+ *
+ * @export
+ * @returns {*}
+ */
 export default function About() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">

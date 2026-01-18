@@ -8,6 +8,14 @@ import { Label } from '@/components/ui/label'
 import { Separator } from '@/components/ui/separator'
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'fieldset'>} param0
+ * @param {React.ComponentProps<"fieldset">} param0.className
+ * @param {React.ComponentProps<"fieldset">} param0....props
+ * @returns {*}
+ */
 function FieldSet({ className, ...props }: React.ComponentProps<'fieldset'>) {
   return (
     <fieldset
@@ -21,6 +29,17 @@ function FieldSet({ className, ...props }: React.ComponentProps<'fieldset'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'legend'> & {
+ *   variant?: 'legend' | 'label'
+ * }} param0
+ * @param {*} param0.className
+ * @param {*} [param0.variant='legend']
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function FieldLegend({
   className,
   variant = 'legend',
@@ -42,6 +61,14 @@ function FieldLegend({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function FieldGroup({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -54,6 +81,11 @@ function FieldGroup({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @type {*}
+ */
 const fieldVariants = cva(
   'group/field flex w-full gap-3 data-[invalid=true]:text-destructive',
   {
@@ -77,6 +109,15 @@ const fieldVariants = cva(
     },
   }
 )
+/**
+ * Description placeholder
+ *
+ * @param {(React.ComponentProps<'div'> & VariantProps<typeof fieldVariants>)} param0
+ * @param {*} param0.className
+ * @param {*} [param0.orientation='vertical']
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function Field({
   className,
   orientation = 'vertical',
@@ -97,6 +138,14 @@ function Field({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function FieldContent({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -109,6 +158,14 @@ function FieldContent({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof Label>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function FieldLabel({
   className,
   ...props
@@ -126,6 +183,14 @@ function FieldLabel({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function FieldTitle({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -138,6 +203,14 @@ function FieldTitle({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'p'>} param0
+ * @param {React.ComponentProps<"p">} param0.className
+ * @param {React.ComponentProps<"p">} param0....props
+ * @returns {*}
+ */
 function FieldDescription({ className, ...props }: React.ComponentProps<'p'>) {
   return (
     <p
@@ -152,6 +225,17 @@ function FieldDescription({ className, ...props }: React.ComponentProps<'p'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'> & {
+ *   children?: React.ReactNode
+ * }} param0
+ * @param {*} param0.children
+ * @param {*} param0.className
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function FieldSeparator({
   children,
   className,
@@ -181,6 +265,23 @@ function FieldSeparator({
     </div>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'> & {
+ *   errors?: Array<
+ *     | {
+ *         message?: string
+ *       }
+ *     | undefined
+ *   >
+ * }} param0
+ * @param {*} param0.className
+ * @param {*} param0.children
+ * @param {*} param0.errors
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function FieldError({
   className,
   children,

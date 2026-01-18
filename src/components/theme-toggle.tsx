@@ -6,8 +6,19 @@ import { Moon, Sun } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
 
+/**
+ * Description placeholder
+ *
+ * @typedef {Theme}
+ */
 type Theme = 'light' | 'dark'
 
+/**
+ * Description placeholder
+ *
+ * @export
+ * @returns {*}
+ */
 export function ThemeToggle() {
   const [mounted, setMounted] = React.useState(false)
   const [theme, setTheme] = React.useState<Theme>('light')

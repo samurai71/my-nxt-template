@@ -1,8 +1,19 @@
 import type { Metadata } from 'next'
 
+/**
+ * Description placeholder
+ *
+ * @type {Metadata}
+ */
 export const metadata: Metadata = {
   title: 'Terms and Conditions',
 }
+/**
+ * Description placeholder
+ *
+ * @export
+ * @returns {*}
+ */
 export default function TermsAndConditions() {
   return (
     <div className="min-h-screen bg-gray-50 px-4 py-12 sm:px-6 lg:px-8 dark:bg-black">

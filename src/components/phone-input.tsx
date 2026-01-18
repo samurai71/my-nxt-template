@@ -23,6 +23,11 @@ import {
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @typedef {PhoneInputProps}
+ */
 type PhoneInputProps = Omit<
   React.ComponentProps<'input'>,
   'onChange' | 'value' | 'ref'
@@ -31,6 +36,11 @@ type PhoneInputProps = Omit<
     onChange?: (value: RPNInput.Value) => void
   }
 
+/**
+ * Description placeholder
+ *
+ * @type {React.ForwardRefExoticComponent<PhoneInputProps>}
+ */
 const PhoneInput: React.ForwardRefExoticComponent<PhoneInputProps> =
   React.forwardRef<React.ElementRef<typeof RPNInput.default>, PhoneInputProps>(
     ({ className, onChange, value, ...props }, ref) => {
@@ -60,6 +70,11 @@ const PhoneInput: React.ForwardRefExoticComponent<PhoneInputProps> =
   )
 PhoneInput.displayName = 'PhoneInput'
 
+/**
+ * Description placeholder
+ *
+ * @type {*}
+ */
 const InputComponent = React.forwardRef<
   HTMLInputElement,
   React.ComponentProps<'input'>
@@ -72,8 +87,18 @@ const InputComponent = React.forwardRef<
 ))
 InputComponent.displayName = 'InputComponent'
 
+/**
+ * Description placeholder
+ *
+ * @typedef {CountryEntry}
+ */
 type CountryEntry = { label: string; value: RPNInput.Country | undefined }
 
+/**
+ * Description placeholder
+ *
+ * @typedef {CountrySelectProps}
+ */
 type CountrySelectProps = {
   disabled?: boolean
   value: RPNInput.Country
@@ -81,6 +106,16 @@ type CountrySelectProps = {
   onChange: (country: RPNInput.Country) => void
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {CountrySelectProps} param0
+ * @param {boolean} param0.disabled
+ * @param {RPNInput.Country} param0.value: selectedCountry
+ * @param {{}} param0.options: countryList
+ * @param {(country: RPNInput.Country) => void} param0.onChange
+ * @returns {*}
+ */
 const CountrySelect = ({
   disabled,
   value: selectedCountry,
@@ -163,12 +198,45 @@ const CountrySelect = ({
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @interface CountrySelectOptionProps
+ * @typedef {CountrySelectOptionProps}
+ * @extends {RPNInput.FlagProps}
+ */
 interface CountrySelectOptionProps extends RPNInput.FlagProps {
+  /**
+   * Description placeholder
+   *
+   * @type {RPNInput.Country}
+   */
   selectedCountry: RPNInput.Country
+  /**
+   * Description placeholder
+   *
+   * @type {(country: RPNInput.Country) => void}
+   */
   onChange: (country: RPNInput.Country) => void
+  /**
+   * Description placeholder
+   *
+   * @type {() => void}
+   */
   onSelectComplete: () => void
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {CountrySelectOptionProps} param0
+ * @param {*} param0.country
+ * @param {*} param0.countryName
+ * @param {RPNInput.Country} param0.selectedCountry
+ * @param {(country: RPNInput.Country) => void} param0.onChange
+ * @param {() => void} param0.onSelectComplete
+ * @returns {*}
+ */
 const CountrySelectOption = ({
   country,
   countryName,
@@ -193,6 +261,14 @@ const CountrySelectOption = ({
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {RPNInput.FlagProps} param0
+ * @param {RPNInput.FlagProps} param0.country
+ * @param {RPNInput.FlagProps} param0.countryName
+ * @returns {*}
+ */
 const FlagComponent = ({ country, countryName }: RPNInput.FlagProps) => {
   const Flag = flags[country]
 

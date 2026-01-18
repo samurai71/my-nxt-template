@@ -19,6 +19,12 @@ import {
 
 import { ThemeToggle } from './theme-toggle'
 
+/**
+ * Description placeholder
+ *
+ * @export
+ * @returns {*}
+ */
 export function Header() {
   const pathname = usePathname() || '/'
 

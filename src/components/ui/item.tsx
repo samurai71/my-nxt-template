@@ -6,6 +6,14 @@ import { type VariantProps, cva } from 'class-variance-authority'
 import { Separator } from '@/components/ui/separator'
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function ItemGroup({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -16,6 +24,14 @@ function ItemGroup({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof Separator>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function ItemSeparator({
   className,
   ...props
@@ -29,6 +45,11 @@ function ItemSeparator({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @type {*}
+ */
 const itemVariants = cva(
   'group/item flex items-center border border-transparent text-sm rounded-md transition-colors [a]:hover:bg-accent/50 [a]:transition-colors duration-100 flex-wrap outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]',
   {
@@ -49,6 +70,20 @@ const itemVariants = cva(
     },
   }
 )
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'> &
+ *   VariantProps<typeof itemVariants> & {
+ *     asChild?: boolean
+ *   }} param0
+ * @param {*} param0.className
+ * @param {*} [param0.variant='default']
+ * @param {*} [param0.size='default']
+ * @param {*} [param0.asChild=false]
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function Item({
   className,
   variant = 'default',
@@ -76,6 +111,11 @@ function Item({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @type {*}
+ */
 const itemMediaVariants = cva(
   'flex shrink-0 items-center justify-center gap-2 group-has-[[data-slot=item-description]]/item:self-start [&_svg]:pointer-events-none group-has-[[data-slot=item-description]]/item:translate-y-0.5',
   {
@@ -92,6 +132,15 @@ const itemMediaVariants = cva(
     },
   }
 )
+/**
+ * Description placeholder
+ *
+ * @param {(React.ComponentProps<'div'> & VariantProps<typeof itemMediaVariants>)} param0
+ * @param {*} param0.className
+ * @param {*} [param0.variant='default']
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function ItemMedia({
   className,
   variant = 'default',
@@ -111,6 +160,14 @@ function ItemMedia({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function ItemContent({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -123,6 +180,14 @@ function ItemContent({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function ItemTitle({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -135,6 +200,14 @@ function ItemTitle({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'p'>} param0
+ * @param {React.ComponentProps<"p">} param0.className
+ * @param {React.ComponentProps<"p">} param0....props
+ * @returns {*}
+ */
 function ItemDescription({ className, ...props }: React.ComponentProps<'p'>) {
   return (
     <p
@@ -148,6 +221,14 @@ function ItemDescription({ className, ...props }: React.ComponentProps<'p'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function ItemActions({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -157,6 +238,14 @@ function ItemActions({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function ItemHeader({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -169,6 +258,14 @@ function ItemHeader({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function ItemFooter({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div

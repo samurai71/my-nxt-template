@@ -11,6 +11,13 @@ import {
 } from 'lucide-react'
 import { Toaster as Sonner, type ToasterProps } from 'sonner'
 
+/**
+ * Description placeholder
+ *
+ * @param {ToasterProps} param0
+ * @param {ToasterProps} param0....props
+ * @returns {*}
+ */
 const Toaster = ({ ...props }: ToasterProps) => {
   const { theme = 'system' } = useTheme()
   return (

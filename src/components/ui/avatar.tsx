@@ -6,6 +6,14 @@ import * as AvatarPrimitive from '@radix-ui/react-avatar'
 
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof AvatarPrimitive.Root>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function Avatar({
   className,
   ...props
@@ -21,6 +29,14 @@ function Avatar({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof AvatarPrimitive.Image>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function AvatarImage({
   className,
   ...props
@@ -33,6 +49,14 @@ function AvatarImage({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof AvatarPrimitive.Fallback>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function AvatarFallback({
   className,
   ...props

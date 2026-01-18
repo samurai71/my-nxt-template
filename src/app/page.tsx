@@ -1,10 +1,21 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 
+/**
+ * Description placeholder
+ *
+ * @type {Metadata}
+ */
 export const metadata: Metadata = {
   title: 'My Template',
 }
 
+/**
+ * Description placeholder
+ *
+ * @export
+ * @returns {*}
+ */
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">

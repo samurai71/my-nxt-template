@@ -1,5 +1,13 @@
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'kbd'>} param0
+ * @param {React.ComponentProps<"kbd">} param0.className
+ * @param {React.ComponentProps<"kbd">} param0....props
+ * @returns {*}
+ */
 function Kbd({ className, ...props }: React.ComponentProps<'kbd'>) {
   return (
     <kbd
@@ -14,6 +22,14 @@ function Kbd({ className, ...props }: React.ComponentProps<'kbd'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function KbdGroup({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <kbd

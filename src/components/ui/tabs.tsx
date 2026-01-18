@@ -6,6 +6,14 @@ import * as TabsPrimitive from '@radix-ui/react-tabs'
 
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof TabsPrimitive.Root>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function Tabs({
   className,
   ...props
@@ -18,6 +26,14 @@ function Tabs({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof TabsPrimitive.List>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function TabsList({
   className,
   ...props
@@ -33,6 +49,14 @@ function TabsList({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof TabsPrimitive.Trigger>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function TabsTrigger({
   className,
   ...props
@@ -48,6 +72,14 @@ function TabsTrigger({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof TabsPrimitive.Content>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function TabsContent({
   className,
   ...props

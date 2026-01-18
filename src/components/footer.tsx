@@ -5,6 +5,12 @@
  */
 import Link from 'next/link'
 
+/**
+ * Description placeholder
+ *
+ * @export
+ * @returns {*}
+ */
 export function Footer() {
   const year = new Date().getFullYear()
 

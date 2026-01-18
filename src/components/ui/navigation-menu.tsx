@@ -6,6 +6,18 @@ import { ChevronDownIcon } from 'lucide-react'
 
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof NavigationMenuPrimitive.Root> & {
+ *   viewport?: boolean
+ * }} param0
+ * @param {*} param0.className
+ * @param {*} param0.children
+ * @param {*} [param0.viewport=true]
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function NavigationMenu({
   className,
   children,
@@ -29,6 +41,14 @@ function NavigationMenu({
     </NavigationMenuPrimitive.Root>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof NavigationMenuPrimitive.List>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function NavigationMenuList({
   className,
   ...props
@@ -44,6 +64,14 @@ function NavigationMenuList({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof NavigationMenuPrimitive.Item>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function NavigationMenuItem({
   className,
   ...props
@@ -56,9 +84,23 @@ function NavigationMenuItem({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @type {*}
+ */
 const navigationMenuTriggerStyle = cva(
   'group inline-flex h-9 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground disabled:pointer-events-none disabled:opacity-50 data-[state=open]:hover:bg-accent data-[state=open]:text-accent-foreground data-[state=open]:focus:bg-accent data-[state=open]:bg-accent/50 focus-visible:ring-ring/50 outline-none transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1'
 )
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof NavigationMenuPrimitive.Trigger>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0.children
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function NavigationMenuTrigger({
   className,
   children,
@@ -78,6 +120,14 @@ function NavigationMenuTrigger({
     </NavigationMenuPrimitive.Trigger>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof NavigationMenuPrimitive.Content>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function NavigationMenuContent({
   className,
   ...props
@@ -94,6 +144,14 @@ function NavigationMenuContent({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof NavigationMenuPrimitive.Viewport>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function NavigationMenuViewport({
   className,
   ...props
@@ -115,6 +173,14 @@ function NavigationMenuViewport({
     </div>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof NavigationMenuPrimitive.Link>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function NavigationMenuLink({
   className,
   ...props
@@ -130,6 +196,14 @@ function NavigationMenuLink({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof NavigationMenuPrimitive.Indicator>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function NavigationMenuIndicator({
   className,
   ...props

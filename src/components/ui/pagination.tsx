@@ -9,6 +9,14 @@ import {
 import { type Button, buttonVariants } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'nav'>} param0
+ * @param {React.ComponentProps<"nav">} param0.className
+ * @param {React.ComponentProps<"nav">} param0....props
+ * @returns {*}
+ */
 function Pagination({ className, ...props }: React.ComponentProps<'nav'>) {
   return (
     <nav
@@ -20,6 +28,14 @@ function Pagination({ className, ...props }: React.ComponentProps<'nav'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'ul'>} param0
+ * @param {React.ComponentProps<"ul">} param0.className
+ * @param {React.ComponentProps<"ul">} param0....props
+ * @returns {*}
+ */
 function PaginationContent({
   className,
   ...props
@@ -32,13 +48,35 @@ function PaginationContent({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'li'>} param0
+ * @param {React.ComponentProps<"li">} param0....props
+ * @returns {*}
+ */
 function PaginationItem({ ...props }: React.ComponentProps<'li'>) {
   return <li data-slot="pagination-item" {...props} />
 }
+/**
+ * Description placeholder
+ *
+ * @typedef {PaginationLinkProps}
+ */
 type PaginationLinkProps = {
   isActive?: boolean
 } & Pick<React.ComponentProps<typeof Button>, 'size'> &
   React.ComponentProps<'a'>
+/**
+ * Description placeholder
+ *
+ * @param {PaginationLinkProps} param0
+ * @param {*} param0.className
+ * @param {*} param0.isActive
+ * @param {*} [param0.size='icon']
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function PaginationLink({
   className,
   isActive,
@@ -61,6 +99,14 @@ function PaginationLink({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof PaginationLink>} param0
+ * @param {React.ComponentProps<({ className, isActive, size, ...props }: any) => any>} param0.className
+ * @param {React.ComponentProps<({ className, isActive, size, ...props }: any) => any>} param0....props
+ * @returns {any>) => any}
+ */
 function PaginationPrevious({
   className,
   ...props
@@ -77,6 +123,14 @@ function PaginationPrevious({
     </PaginationLink>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof PaginationLink>} param0
+ * @param {React.ComponentProps<({ className, isActive, size, ...props }: any) => any>} param0.className
+ * @param {React.ComponentProps<({ className, isActive, size, ...props }: any) => any>} param0....props
+ * @returns {any>) => any}
+ */
 function PaginationNext({
   className,
   ...props
@@ -93,6 +147,14 @@ function PaginationNext({
     </PaginationLink>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'span'>} param0
+ * @param {React.ComponentProps<"span">} param0.className
+ * @param {React.ComponentProps<"span">} param0....props
+ * @returns {*}
+ */
 function PaginationEllipsis({
   className,
   ...props

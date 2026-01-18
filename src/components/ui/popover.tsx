@@ -6,18 +6,42 @@ import * as PopoverPrimitive from '@radix-ui/react-popover'
 
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof PopoverPrimitive.Root>} param0
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function Popover({
   ...props
 }: React.ComponentProps<typeof PopoverPrimitive.Root>) {
   return <PopoverPrimitive.Root data-slot="popover" {...props} />
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof PopoverPrimitive.Trigger>} param0
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function PopoverTrigger({
   ...props
 }: React.ComponentProps<typeof PopoverPrimitive.Trigger>) {
   return <PopoverPrimitive.Trigger data-slot="popover-trigger" {...props} />
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof PopoverPrimitive.Content>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} [param0.align='center']
+ * @param {React.ComponentProps<any>} [param0.sideOffset=4]
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function PopoverContent({
   className,
   align = 'center',
@@ -40,6 +64,13 @@ function PopoverContent({
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof PopoverPrimitive.Anchor>} param0
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function PopoverAnchor({
   ...props
 }: React.ComponentProps<typeof PopoverPrimitive.Anchor>) {

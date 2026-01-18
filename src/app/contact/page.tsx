@@ -2,9 +2,20 @@ import type { Metadata } from 'next'
 
 // import MyForm from '@/components/contactForm'
 
+/**
+ * Description placeholder
+ *
+ * @type {Metadata}
+ */
 export const metadata: Metadata = {
   title: 'Contact',
 }
+/**
+ * Description placeholder
+ *
+ * @export
+ * @returns {*}
+ */
 export default function Contact() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">

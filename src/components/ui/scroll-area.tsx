@@ -6,6 +6,15 @@ import * as ScrollAreaPrimitive from '@radix-ui/react-scroll-area'
 
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof ScrollAreaPrimitive.Root>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0.children
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function ScrollArea({
   className,
   children,
@@ -28,6 +37,15 @@ function ScrollArea({
     </ScrollAreaPrimitive.Root>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof ScrollAreaPrimitive.ScrollAreaScrollbar>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} [param0.orientation='vertical']
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function ScrollBar({
   className,
   orientation = 'vertical',

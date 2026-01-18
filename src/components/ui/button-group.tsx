@@ -4,6 +4,11 @@ import { type VariantProps, cva } from 'class-variance-authority'
 import { Separator } from '@/components/ui/separator'
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @type {*}
+ */
 const buttonGroupVariants = cva(
   "flex w-fit items-stretch [&>*]:focus-visible:z-10 [&>*]:focus-visible:relative [&>[data-slot=select-trigger]:not([class*='w-'])]:w-fit [&>input]:flex-1 has-[select[aria-hidden=true]:last-child]:[&>[data-slot=select-trigger]:last-of-type]:rounded-r-md has-[>[data-slot=button-group]]:gap-2",
   {
@@ -20,6 +25,15 @@ const buttonGroupVariants = cva(
     },
   }
 )
+/**
+ * Description placeholder
+ *
+ * @param {(React.ComponentProps<'div'> & VariantProps<typeof buttonGroupVariants>)} param0
+ * @param {*} param0.className
+ * @param {*} param0.orientation
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function ButtonGroup({
   className,
   orientation,
@@ -40,6 +54,17 @@ function ButtonGroup({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'> & {
+ *   asChild?: boolean
+ * }} param0
+ * @param {*} param0.className
+ * @param {*} [param0.asChild=false]
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function ButtonGroupText({
   className,
   asChild = false,
@@ -58,6 +83,15 @@ function ButtonGroupText({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof Separator>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} [param0.orientation='vertical']
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function ButtonGroupSeparator({
   className,
   orientation = 'vertical',

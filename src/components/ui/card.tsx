@@ -2,6 +2,14 @@ import * as React from 'react'
 
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function Card({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -14,6 +22,14 @@ function Card({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function CardHeader({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -26,6 +42,14 @@ function CardHeader({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function CardTitle({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -35,6 +59,14 @@ function CardTitle({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function CardDescription({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -44,6 +76,14 @@ function CardDescription({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function CardAction({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -56,6 +96,14 @@ function CardAction({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function CardContent({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -65,6 +113,14 @@ function CardContent({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function CardFooter({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div

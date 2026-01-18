@@ -2,6 +2,14 @@ import * as React from 'react'
 
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'textarea'>} param0
+ * @param {React.ComponentProps<"textarea">} param0.className
+ * @param {React.ComponentProps<"textarea">} param0....props
+ * @returns {*}
+ */
 function Textarea({ className, ...props }: React.ComponentProps<'textarea'>) {
   return (
     <textarea

@@ -17,8 +17,20 @@ import {
 import { Label } from '@/components/ui/label'
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @type {*}
+ */
 const Form = FormProvider
 
+/**
+ * Description placeholder
+ *
+ * @typedef {FormFieldContextValue}
+ * @template {FieldValues} [TFieldValues=FieldValues]
+ * @template {FieldPath<TFieldValues>} [TName=FieldPath<TFieldValues>]
+ */
 type FormFieldContextValue<
   TFieldValues extends FieldValues = FieldValues,
   TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
@@ -26,10 +38,24 @@ type FormFieldContextValue<
   name: TName
 }
 
+/**
+ * Description placeholder
+ *
+ * @type {*}
+ */
 const FormFieldContext = React.createContext<FormFieldContextValue>(
   {} as FormFieldContextValue
 )
 
+/**
+ * Description placeholder
+ *
+ * @template {FieldValues} [TFieldValues=FieldValues]
+ * @template {FieldPath<TFieldValues>} [TName=FieldPath<TFieldValues>]
+ * @param {ControllerProps<TFieldValues, TName>} param0
+ * @param {ControllerProps<TFieldValues, TName>} param0....props
+ * @returns {*}
+ */
 const FormField = <
   TFieldValues extends FieldValues = FieldValues,
   TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
@@ -43,6 +69,11 @@ const FormField = <
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @returns {*}
+ */
 const useFormField = () => {
   const fieldContext = React.useContext(FormFieldContext)
   const itemContext = React.useContext(FormItemContext)
@@ -66,14 +97,32 @@ const useFormField = () => {
   }
 }
 
+/**
+ * Description placeholder
+ *
+ * @typedef {FormItemContextValue}
+ */
 type FormItemContextValue = {
   id: string
 }
 
+/**
+ * Description placeholder
+ *
+ * @type {*}
+ */
 const FormItemContext = React.createContext<FormItemContextValue>(
   {} as FormItemContextValue
 )
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function FormItem({ className, ...props }: React.ComponentProps<'div'>) {
   const id = React.useId()
 
@@ -88,6 +137,14 @@ function FormItem({ className, ...props }: React.ComponentProps<'div'>) {
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof LabelPrimitive.Root>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function FormLabel({
   className,
   ...props
@@ -105,6 +162,13 @@ function FormLabel({
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof Slot>} param0
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function FormControl({ ...props }: React.ComponentProps<typeof Slot>) {
   const { error, formItemId, formDescriptionId, formMessageId } = useFormField()
 
@@ -123,6 +187,14 @@ function FormControl({ ...props }: React.ComponentProps<typeof Slot>) {
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'p'>} param0
+ * @param {React.ComponentProps<"p">} param0.className
+ * @param {React.ComponentProps<"p">} param0....props
+ * @returns {*}
+ */
 function FormDescription({ className, ...props }: React.ComponentProps<'p'>) {
   const { formDescriptionId } = useFormField()
 
@@ -136,6 +208,14 @@ function FormDescription({ className, ...props }: React.ComponentProps<'p'>) {
   )
 }
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'p'>} param0
+ * @param {React.ComponentProps<"p">} param0.className
+ * @param {React.ComponentProps<"p">} param0....props
+ * @returns {*}
+ */
 function FormMessage({ className, ...props }: React.ComponentProps<'p'>) {
   const { error, formMessageId } = useFormField()
   const body = error ? String(error?.message ?? '') : props.children

@@ -10,16 +10,46 @@ import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @typedef {CarouselApi}
+ */
 type CarouselApi = UseEmblaCarouselType[1]
+/**
+ * Description placeholder
+ *
+ * @typedef {UseCarouselParameters}
+ */
 type UseCarouselParameters = Parameters<typeof useEmblaCarousel>
+/**
+ * Description placeholder
+ *
+ * @typedef {CarouselOptions}
+ */
 type CarouselOptions = UseCarouselParameters[0]
+/**
+ * Description placeholder
+ *
+ * @typedef {CarouselPlugin}
+ */
 type CarouselPlugin = UseCarouselParameters[1]
+/**
+ * Description placeholder
+ *
+ * @typedef {CarouselProps}
+ */
 type CarouselProps = {
   opts?: CarouselOptions
   plugins?: CarouselPlugin
   orientation?: 'horizontal' | 'vertical'
   setApi?: (api: CarouselApi) => void
 }
+/**
+ * Description placeholder
+ *
+ * @typedef {CarouselContextProps}
+ */
 type CarouselContextProps = {
   carouselRef: ReturnType<typeof useEmblaCarousel>[0]
   api: ReturnType<typeof useEmblaCarousel>[1]
@@ -28,7 +58,17 @@ type CarouselContextProps = {
   canScrollPrev: boolean
   canScrollNext: boolean
 } & CarouselProps
+/**
+ * Description placeholder
+ *
+ * @type {*}
+ */
 const CarouselContext = React.createContext<CarouselContextProps | null>(null)
+/**
+ * Description placeholder
+ *
+ * @returns {*}
+ */
 function useCarousel() {
   const context = React.useContext(CarouselContext)
   if (!context) {
@@ -36,6 +76,19 @@ function useCarousel() {
   }
   return context
 }
+/**
+ * Description placeholder
+ *
+ * @param {(React.ComponentProps<'div'> & CarouselProps)} param0
+ * @param {*} [param0.orientation='horizontal']
+ * @param {*} param0.opts
+ * @param {*} param0.setApi
+ * @param {*} param0.plugins
+ * @param {*} param0.className
+ * @param {*} param0.children
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function Carousel({
   orientation = 'horizontal',
   opts,
@@ -117,6 +170,14 @@ function Carousel({
     </CarouselContext.Provider>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function CarouselContent({ className, ...props }: React.ComponentProps<'div'>) {
   const { carouselRef, orientation } = useCarousel()
   return (
@@ -136,6 +197,14 @@ function CarouselContent({ className, ...props }: React.ComponentProps<'div'>) {
     </div>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function CarouselItem({ className, ...props }: React.ComponentProps<'div'>) {
   const { orientation } = useCarousel()
   return (
@@ -152,6 +221,16 @@ function CarouselItem({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof Button>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} [param0.variant='outline']
+ * @param {React.ComponentProps<any>} [param0.size='icon']
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function CarouselPrevious({
   className,
   variant = 'outline',
@@ -180,6 +259,16 @@ function CarouselPrevious({
     </Button>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof Button>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} [param0.variant='outline']
+ * @param {React.ComponentProps<any>} [param0.size='icon']
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function CarouselNext({
   className,
   variant = 'outline',

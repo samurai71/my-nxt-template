@@ -7,21 +7,54 @@ import { CheckIcon, ChevronDownIcon, ChevronUpIcon } from 'lucide-react'
 
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SelectPrimitive.Root>} param0
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function Select({
   ...props
 }: React.ComponentProps<typeof SelectPrimitive.Root>) {
   return <SelectPrimitive.Root data-slot="select" {...props} />
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SelectPrimitive.Group>} param0
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function SelectGroup({
   ...props
 }: React.ComponentProps<typeof SelectPrimitive.Group>) {
   return <SelectPrimitive.Group data-slot="select-group" {...props} />
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SelectPrimitive.Value>} param0
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function SelectValue({
   ...props
 }: React.ComponentProps<typeof SelectPrimitive.Value>) {
   return <SelectPrimitive.Value data-slot="select-value" {...props} />
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SelectPrimitive.Trigger> & {
+ *   size?: 'sm' | 'default'
+ * }} param0
+ * @param {*} param0.className
+ * @param {*} [param0.size='default']
+ * @param {*} param0.children
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function SelectTrigger({
   className,
   size = 'default',
@@ -47,6 +80,17 @@ function SelectTrigger({
     </SelectPrimitive.Trigger>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SelectPrimitive.Content>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0.children
+ * @param {React.ComponentProps<any>} [param0.position='item-aligned']
+ * @param {React.ComponentProps<any>} [param0.align='center']
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function SelectContent({
   className,
   children,
@@ -83,6 +127,14 @@ function SelectContent({
     </SelectPrimitive.Portal>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SelectPrimitive.Label>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function SelectLabel({
   className,
   ...props
@@ -95,6 +147,15 @@ function SelectLabel({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SelectPrimitive.Item>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0.children
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function SelectItem({
   className,
   children,
@@ -121,6 +182,14 @@ function SelectItem({
     </SelectPrimitive.Item>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SelectPrimitive.Separator>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function SelectSeparator({
   className,
   ...props
@@ -133,6 +202,14 @@ function SelectSeparator({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SelectPrimitive.ScrollUpButton>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function SelectScrollUpButton({
   className,
   ...props
@@ -150,6 +227,14 @@ function SelectScrollUpButton({
     </SelectPrimitive.ScrollUpButton>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SelectPrimitive.ScrollDownButton>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function SelectScrollDownButton({
   className,
   ...props

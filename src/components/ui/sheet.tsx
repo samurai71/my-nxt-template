@@ -7,24 +7,60 @@ import { XIcon } from 'lucide-react'
 
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SheetPrimitive.Root>} param0
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function Sheet({ ...props }: React.ComponentProps<typeof SheetPrimitive.Root>) {
   return <SheetPrimitive.Root data-slot="sheet" {...props} />
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SheetPrimitive.Trigger>} param0
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function SheetTrigger({
   ...props
 }: React.ComponentProps<typeof SheetPrimitive.Trigger>) {
   return <SheetPrimitive.Trigger data-slot="sheet-trigger" {...props} />
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SheetPrimitive.Close>} param0
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function SheetClose({
   ...props
 }: React.ComponentProps<typeof SheetPrimitive.Close>) {
   return <SheetPrimitive.Close data-slot="sheet-close" {...props} />
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SheetPrimitive.Portal>} param0
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function SheetPortal({
   ...props
 }: React.ComponentProps<typeof SheetPrimitive.Portal>) {
   return <SheetPrimitive.Portal data-slot="sheet-portal" {...props} />
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SheetPrimitive.Overlay>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function SheetOverlay({
   className,
   ...props
@@ -40,6 +76,18 @@ function SheetOverlay({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SheetPrimitive.Content> & {
+ *   side?: 'top' | 'right' | 'bottom' | 'left'
+ * }} param0
+ * @param {*} param0.className
+ * @param {*} param0.children
+ * @param {*} [param0.side='right']
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function SheetContent({
   className,
   children,
@@ -76,6 +124,14 @@ function SheetContent({
     </SheetPortal>
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function SheetHeader({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -85,6 +141,14 @@ function SheetHeader({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function SheetFooter({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -94,6 +158,14 @@ function SheetFooter({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SheetPrimitive.Title>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function SheetTitle({
   className,
   ...props
@@ -106,6 +178,14 @@ function SheetTitle({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<typeof SheetPrimitive.Description>} param0
+ * @param {React.ComponentProps<any>} param0.className
+ * @param {React.ComponentProps<any>} param0....props
+ * @returns {*}
+ */
 function SheetDescription({
   className,
   ...props

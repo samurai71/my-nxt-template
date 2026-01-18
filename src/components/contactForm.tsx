@@ -15,6 +15,11 @@ import {
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 
+/**
+ * Description placeholder
+ *
+ * @type {*}
+ */
 const formSchema = z.object({
   name: z.string().min(2),
   phone: z.string().optional(),
@@ -22,6 +27,12 @@ const formSchema = z.object({
   comment: z.string(),
 })
 
+/**
+ * Description placeholder
+ *
+ * @export
+ * @returns {*}
+ */
 export default function MyForm() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),

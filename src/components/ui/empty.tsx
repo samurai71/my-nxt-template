@@ -2,6 +2,14 @@ import { type VariantProps, cva } from 'class-variance-authority'
 
 import { cn } from '@/lib/utils'
 
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function Empty({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -14,6 +22,14 @@ function Empty({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function EmptyHeader({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -26,6 +42,11 @@ function EmptyHeader({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @type {*}
+ */
 const emptyMediaVariants = cva(
   'flex shrink-0 items-center justify-center mb-2 [&_svg]:pointer-events-none [&_svg]:shrink-0',
   {
@@ -40,6 +61,15 @@ const emptyMediaVariants = cva(
     },
   }
 )
+/**
+ * Description placeholder
+ *
+ * @param {(React.ComponentProps<'div'> & VariantProps<typeof emptyMediaVariants>)} param0
+ * @param {*} param0.className
+ * @param {*} [param0.variant='default']
+ * @param {*} param0....props
+ * @returns {*}
+ */
 function EmptyMedia({
   className,
   variant = 'default',
@@ -59,6 +89,14 @@ function EmptyMedia({
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function EmptyTitle({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -68,6 +106,14 @@ function EmptyTitle({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'p'>} param0
+ * @param {React.ComponentProps<"p">} param0.className
+ * @param {React.ComponentProps<"p">} param0....props
+ * @returns {*}
+ */
 function EmptyDescription({ className, ...props }: React.ComponentProps<'p'>) {
   return (
     <div
@@ -80,6 +126,14 @@ function EmptyDescription({ className, ...props }: React.ComponentProps<'p'>) {
     />
   )
 }
+/**
+ * Description placeholder
+ *
+ * @param {React.ComponentProps<'div'>} param0
+ * @param {React.ComponentProps<"div">} param0.className
+ * @param {React.ComponentProps<"div">} param0....props
+ * @returns {*}
+ */
 function EmptyContent({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
