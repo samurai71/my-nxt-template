@@ -41,5 +41,6 @@
     "oklch",
     "trivago",
     "vaul"
-  ]
+  ],
+  "snyk.advanced.autoSelectOrganization": true
 }
